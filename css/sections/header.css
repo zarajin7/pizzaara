@@ -2,10 +2,11 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
 }
 nav ul{
     display:flex;
     list-style-type: none;
-    gap: 3em;
+    gap: 5em;
     justify-content: space-between;
 }
