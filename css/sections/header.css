@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap');
 
 nav{
-    background-color: aliceblue;
+    background-color:aliceblue;
 }
 .nav__container {
   display: flex;
