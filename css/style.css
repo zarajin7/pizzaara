@@ -1,41 +1,59 @@
 @import url(sections/header.css);
+@import url(main.css);
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap");
 * {
   font-family: "Kanit", sans-serif;
 }
-.hero{
-    margin-left: 35px;
-    margin-right: 35px;
+.hero {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.hero__content {
+  display: flex;
+  justify-content: space-between;
 }
 .text__orange {
   color: #eea539;
 }
 
-.hero__nav__left h1{
- font-size: 4rem;
+.hero__nav__left h1 {
+  font-size: 4rem;
 }
-.hero__nav__left img{
+.hero__nav__left img {
   background-color: black;
 }
-.hero__nav__left__icons{
+.hero__nav__left__icons {
   display: flex;
   justify-content: space-between;
   row-gap: 4rem;
   padding-top: 5rem;
   text-align: center;
 }
-.hero__nav__left h2{
+.hero__nav__left h2 {
   text-align: center;
- }
- .hero__nav__left__icons__item1{
-padding: 3rem 4rem;
-background-color: #f4f7fb;
 }
-.hero__nav__left__icons__item2{
+.hero__nav__left__icons__item1 {
   padding: 3rem 4rem;
   background-color: #f4f7fb;
-  }
-  .hero__nav__left__icons__item3{
-    padding: 3rem 4rem;
-    background-color: #f4f7fb;
-    }
+}
+.hero__nav__left__icons__item2 {
+  padding: 3rem 4rem;
+  background-color: #f4f7fb;
+}
+.hero__nav__left__icons__item3 {
+  padding: 3rem 4rem;
+  background-color: #f4f7fb;
+  justify-content: flex-start;
+}
+.hero__nav__left__icons p {
+  font-size: 1.25rem;
+}
+.hero__nav__left__form input {
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  padding: 1.4rem 2.5rem;
+}
+.hero__nav__right img {
+  justify-content: right;
+}
