@@ -43,3 +43,8 @@ border-bottom: 3px solid grey;
     .main-content__item3{
       background-color:#f4f7fb;
     }
+    .button__item1{
+      /* background-color: #eea539; */
+      border: none;
+    text-align: center;
+    }
