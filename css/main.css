@@ -48,3 +48,9 @@ border-bottom: 3px solid grey;
       border: none;
     text-align: center;
     }
+    .main-content__p1{
+     display: flex;
+     /* justify-content: right; */
+     margin: 20px 20px;
+     text-align: center;
+    }
