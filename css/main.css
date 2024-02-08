@@ -1,6 +1,7 @@
-.main-content {
-  text-align: center;
+.main-container{
+  display: flex;
 }
+
 .main-content__left h3 {
   font-size: 1rem;
   padding-top: 6rem;
@@ -54,3 +55,12 @@ border-bottom: 3px solid grey;
      margin: 20px 20px;
      text-align: center;
     }
+    .image__1{
+      width:100px;
+      height: 100px;
+      background-color: black;
+      border-radius: 10em;
+    }
+/* .main__container__right{
+background-color: #eea539;  
+} */
