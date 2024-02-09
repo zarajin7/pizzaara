@@ -40,6 +40,6 @@
 .hover__content:hover{
   color:#eea539;
   cursor:pointer;
-  /* border-bottom: 3px solid #eea539; */
-  padding-bottom: 0.5em;
+   border-bottom: 3px solid #eea539; 
+  /* padding-bottom: 0.5em; */
 }
