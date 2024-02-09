@@ -21,6 +21,12 @@
   justify-content: space-between;
   row-gap: 9rem;
 }
+.stay{
+  color:white;
+}
+.h3{
+  color:white;
+}
 .h3 ul li {
   list-style-type: none;
   justify-content: center;
@@ -28,4 +34,6 @@
 }
 .Subscribe{
     justify-content: flex-end;
+    color: white;
+    font-size: 10px;
 }
