@@ -62,6 +62,14 @@
 .hero__nav__right img {
   justify-content: right;
 }
+.cart{
+  background-color: black;
+  color: white;
+  margin: 30px;
+  padding-right:10px ;
+  padding-left:10px ;
+
+}
 .main-container{
   display: flex;
 }
